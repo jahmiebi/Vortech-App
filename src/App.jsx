@@ -18,6 +18,7 @@ const App = () => {
         <Route path='/login' exact element={<Login/>} />
         <Route path='/voter-result-management' exact element={<VoterResultManagement/>}/>
         <Route path='/voter-result-management2' exact element={<VoterResultManagement2/>}/>
+        
       </Routes>
     </div>
   )
